@@ -9,7 +9,7 @@ In your squads research and answer the following questions:
 ```
 - Asynchronous JavaScript and XML
 
-[https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started]
+[Source](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
 ```
 
@@ -28,7 +28,7 @@ In your squads research and answer the following questions:
     - Receive data from a server - after the page has loaded
     - Send data to a server - in the background
 
-[http://www.w3schools.com/xml/xml_http.asp]
+[Source](http://www.w3schools.com/xml/xml_http.asp)
 
 ```
 
@@ -37,7 +37,7 @@ In your squads research and answer the following questions:
 - The keystone of AJAX is the XMLHttpRequestObject
 - AJAX is the use of the XMLHttpRequest object to communicate with server-side scripts
 
-[https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started]
+[Source](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
 ```
 
@@ -45,7 +45,7 @@ In your squads research and answer the following questions:
 ```
 - Although the "X" in AJAX stands for XML, any type of data can be sent and received. JSON (JavaScript Object Notation) has replaced XML as the data interchange format of choice. A major reason for this is that JavaScript natively parses JSON, while XML must be parsed by a much slower and cumbersome set of client libraries.
 
-[http://stackoverflow.com/tags/ajax/info]
+[Source](http://stackoverflow.com/tags/ajax/info)
 
 ```
 
@@ -77,7 +77,7 @@ In your squads research and answer the following questions:
 
     Adds a label/value pair to the HTTP header to be sent.
 
-[https://www.tutorialspoint.com/ajax/what_is_xmlhttprequest.htm]
+[Source](https://www.tutorialspoint.com/ajax/what_is_xmlhttprequest.htm)
 ```
 
 ### What are some ways to make Ajax calls?
@@ -107,6 +107,12 @@ In your squads research and answer the following questions:
 
 ### What is the Same-origin policy and how does it relate to Ajax?
 ```
+- Same-Origin Policy: 
+    - Restricts how a document or script loaded from one origin can interact with a resource from another origin
+    - Critical security mechanism for isolating potentially malicious documents
+    - Two pages have the same origin of the protocol, port (if specified, and host are the same for both pages 
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 
 ```
 
@@ -117,12 +123,18 @@ In your squads research and answer the following questions:
 
 ### Where can we find XMLHttpRequests in the Chrome Developer Tools?
 ```
+- Chrome Dev Tools > Settings > Console > Log XMLHTTPRequests (checked)
+- The console will log each XMLHttpRequest
+
+[Source](https://developers.google.com/web/tools/chrome-devtools/console/)
 
 ```
 
 ### Who designed XMLHttpRequests?
 ```
+- XMLHttpRequest was originally designed by Microsoft and adopted by Mozilla, Apple, and Google. It's now being standardized at the WHATWG ["Web Hypertext Application Technology Working Group"](https://whatwg.org/). 
 
+[Source](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 ```
 
 
