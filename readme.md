@@ -5,9 +5,10 @@
 In your squads research and answer the following questions:
 
 - What does the acronym AJAX stand for?
-``
 
-``
+```
+
+```
 
 - What is an XMLHttpRequest?
 - What is the relationship between AJAX and an XMLHttpRequest?
