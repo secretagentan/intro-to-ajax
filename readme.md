@@ -54,6 +54,9 @@ In your squads research and answer the following questions:
 
 ### What HTTP verbs or "methods" can be used?
 ```
+// Secure methods: OPTIONS, GET, HEAD, POST, PUT, and DELETE
+// Insecure methods: TRACE, CONNECT
+
 - XMLHttpRequest.abort()
 Aborts the request if it has already been sent.
 
@@ -137,6 +140,7 @@ Sets the value of an HTTP request header. You must call setRequestHeader()after 
 // A XMLHttpRequest does not affect the current window and the js code can 
 // examine the results of the request and do whatever the code states 
 // without re-loading the current window.
+
 ```
 
 ### What is the Same-origin policy and how does it relate to Ajax?
@@ -146,12 +150,16 @@ Sets the value of an HTTP request header. You must call setRequestHeader()after 
     - Critical security mechanism for isolating potentially malicious documents
     - Two pages have the same origin of the protocol, port (if specified, and host are the same for both pages 
 
+- AJAX - JSONP - method of script injection 
+// Ajax requests to a different domain would normally be prevented under the same-origin policy. But using script-injection through JSONP can be enabled to make ajax calls to other domains.
+
 [Source](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 
 ```
 
 ### Compare and contrast a server's response to an XMLHttpRequest vs a regular HTTP request
 ```
+- On the server side - 
 
 ```
 
@@ -173,8 +181,19 @@ Sets the value of an HTTP request header. You must call setRequestHeader()after 
 
 ```
 
+### BONUS: Use jQuery to make an XHR GET request 
+```
+
+
+```
+
 
 ## 🙋 Answers!
 
 When you think your squad knows all the answers raise your hands and we'll come check.
+
+
+
+
+
 
